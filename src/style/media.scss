@@ -1,0 +1,211 @@
+// Min ====================
+// 992
+@media (min-width: 992px) {
+    .nav-list {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -15px;
+    }
+}
+
+// 1200
+@media (min-width: 1200px) {}
+
+// 1340
+@media (min-width: 1340px) {
+    .container {
+        max-width: 1340px;
+    }
+}
+
+// Max ======================
+// 1339
+@media (max-width: 1339px) {
+    .preview-banner-buble {
+        right: calc(50% + 140px);
+    }
+}
+
+// 1199
+@media (max-width: 1199px) {
+    .logo {
+        display: inline-block;
+        max-width: 250px;
+        vertical-align: top;
+    }
+    .preview-banner-buble {
+        right: calc(50% + 100px);
+    }
+}
+
+// 991
+@media (max-width: 991px) {
+    .b-header {
+        .navbar-toggler {
+            margin-left: auto;
+        }
+        &__collapse {
+            display: flex;
+            position: fixed;
+            top: 0;
+            left: 0;
+            padding-top: 60px;
+            width: 320px;
+            height: 100%;
+            background-color: $white;
+            text-align: center;
+            overflow: auto;
+            flex-direction: column;
+            transition: transform .3s ease;
+            z-index: 2;
+            &:not(.show) {
+                transform: translateX(-100%);
+            }
+        }
+        &__close {
+            display: block;
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            border: none;
+        }
+    }
+    .nav-list {
+        > li {
+            margin-bottom: 10px;
+        }
+
+        .dropdown-menu {
+        	position: static;
+        	padding: 5px;
+        	float: none;
+        }
+    }
+    .preview-banner-buble {
+        right: 50%;
+    }
+    .previws-banner {
+        margin-top: 100px;
+    }
+}
+
+// 767
+@media (max-width: 767px) {
+    .preview-banner {
+        margin-top: 120px;
+        height: auto;
+        min-height: initial;
+
+        &__inner {
+            position: static;
+            padding: 20px 0;
+            background-color: $red1;
+        }
+
+        &__info {
+            margin-bottom: 0;
+            width: auto;
+        }
+
+        &-buble {
+            display: none;
+        }
+    }
+
+    .page-content {
+    	padding: 20px 0;
+
+    	&__card {
+    		margin-bottom: 20px;
+    	}
+    }
+
+    .testimonials {
+    	padding: 30px 0 60px;
+
+    	&:after {
+    		height: 50px;
+    	}
+    }
+
+    .partners {
+
+    	&__slider {
+
+    		.owl-dots {
+    			margin-top: 20px;
+    		}
+    	}
+    }
+}
+
+// 575
+@media (max-width: 575px) {
+    .about,
+    .main-text {
+        .head-title {
+            font-size: 38px !important;
+        }
+        .just-text strong {
+            font-size: 20px !important;
+        }
+        p {
+            font-size: 17px !important;
+        }
+    }
+    .previws-banner {
+        margin-top: -100px;
+        margin-bottom: 100px;
+    }
+}
+
+// 480
+@media (max-width: 480px) {
+
+	.head-title {
+		font-size: 45px;
+	}
+
+}
+
+// 320
+@media (max-width: 380px) {
+	body {
+		font-size: 20px;
+	}
+
+	.head-title {
+		font-size: 40px;
+	}
+
+	.logo {
+		max-width: 200px;
+	}
+
+	.btn {
+		font-size: 22px;
+	}
+
+	.just-text {
+		font-size: 19px;
+
+		blockquote, strong {
+			font-size: 22px;
+		}
+	}
+
+	.preview-banner {
+
+		&__title {
+			font-size: 30px;
+		}
+	}
+
+	.card {
+
+		&__title {
+			padding: 7px;
+			font-size: 22px;
+		}
+	}
+}

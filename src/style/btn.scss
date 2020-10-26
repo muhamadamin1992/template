@@ -1,0 +1,41 @@
+.btn {
+	position: relative;
+	border: none;
+	padding: 6.5px 20px;
+	font-size: 25px;
+	font-weight: 600;
+	font-family: $font-fam1;
+	line-height: 1.4;
+	border-radius: 50px;
+	transition: background-color .3s ease;
+
+	&-primary {
+		background-color: $red1;
+		color: $white;
+
+		&:hover {
+			background-color: darken($red1, 5%);
+		}
+
+		&:focus,
+		&:not(:disabled):not(.disabled):active:focus {
+			outline: none;
+			background-color: $red1;
+			box-shadow: 0 0 0 2px $red1;
+		}
+
+		&:not(:disabled):not(.disabled):active {
+			background-color: lighten($red1, 5%);
+		}
+	}
+
+	&-white {
+		background-color: $white;
+		color: $pink;
+
+		&:hover {
+			background-color: darken($white, 5%);
+			color: $pink;
+		}
+	}
+}

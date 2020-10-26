@@ -1,0 +1,11 @@
+.head-title {
+	margin-bottom: .421em;
+	font-size: 57px;
+	font-family: $font-fam1;
+	font-weight: 600;
+	color: $red1;
+
+	&--white {
+		color: $white;
+	}
+}

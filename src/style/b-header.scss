@@ -1,0 +1,21 @@
+.b-header {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: 100;
+	&:after {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 179px;
+		width: 100vw;
+		background-image: url('../img/header-line.svg');
+		background-repeat: no-repeat;
+		background-position: top center;
+		z-index: -1;
+	}
+}

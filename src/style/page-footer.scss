@@ -1,0 +1,76 @@
+.page-footer {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../img/footer.svg');
+    padding: 60px 0 42px;
+    color: $white;
+    &__container {
+        position: relative;
+        padding-top: 70px;
+        padding-bottom: 19px;
+    }
+    &__bg {
+        position: absolute;
+        bottom: 0;
+        right: 15px;
+        width: 754px;
+        height: 520px;
+        background-image: url('../img/wheel.png');
+        transition: transform .1s ease;
+    }
+    &__title {
+        margin-bottom: 22px;
+    }
+    &__text {
+        p {
+            margin-bottom: 21px;
+        }
+    }
+    &__newsletter {
+        margin-bottom: 35px;
+    }
+    &__nav {
+        margin: 0 0 16px;
+        padding: 0;
+        font-size: 17px;
+        color: $yellow2;
+        list-style: none;
+        li {
+            display: inline-block;
+            margin-right: 12px;
+        }
+        a {
+            color: inherit;
+            text-decoration: underline;
+        }
+    }
+    &__socials {
+        padding-top: 20px;
+    }
+}
+
+.page-footer {
+    ul {
+        padding: 0;
+    }
+    li {
+        list-style: none;
+        margin-right: 25px;
+    }
+    li:last-child {
+        margin: 0;
+    }
+    a {
+        font-size: 22px;
+        color: #ffffff;
+        text-decoration: underline;
+        transition: all .4s;
+    }
+    a:hover {
+        text-decoration: none;
+    }
+    p {
+        font-size: 20px;
+        font-weight: 300;
+    }
+}

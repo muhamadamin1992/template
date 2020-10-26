@@ -1,0 +1,118 @@
+$font-fam1: "proxima-nova", sans-serif;
+$white: #fff;
+$white2: #f4f4f4;
+$white3: #ebebeb;
+$white4: #f7f7f7;
+$white5: #f1f1f3;
+$black: #000;
+$black2: #2b2e34;
+$black3: #162634;
+$black4: #0b0b0b;
+$black5: #2f3034;
+$black6: #1d1d1d;
+$black7: #1c2836;
+$gray1: #989592;
+$gray2: #979492;
+$gray3: #4c4c4c;
+$gray4: #545558;
+$gray5: #666;
+$gray6: #b3b3b3;
+$gray7: #ccc;
+$gray8: #555;
+$gray9: #dcdcdc;
+$gray10: #d3d2d2;
+$gray11: #dbdbdb;
+$gray12: #c3c3c3;
+$yellow1: #febf22;
+$yellow2: #fec617;
+$yellow3: #ffca25;
+$yellow4: #ffcc30;
+$yellow5: #fdbd1e;
+$yellow6: #ffc922;
+$yellow8: #ffc538;
+$yellow9: #bca049;
+$blue1: #004288;
+$blue2: #1a4fb3;
+$blue3: #15859d;
+$blue4: #182c6b;
+$blue5: #203370;
+$blue6: #0a1846;
+$blue7: #213470;
+$blue8: #27689d;
+$blue9: #00155b;
+$blue-dark1: #061134;
+$blue-dark2: #0d122c;
+$blue-light1: #b0e3f8;
+$blue-light2: #bfe3f7;
+$brown1: #00A651;
+$green1: #799f38;
+$green2: #3493a7;
+$green3: #228ca3;
+$orange1: #f29853;
+$purple1: #752a80;
+$red1: #e63429;
+$red2: #d92121;
+$red3: #dc2043;
+$red4: #ff2a10;
+$red-light1: #983030;
+$indigo1: #5e338c;
+$indigo2: #6d4797;
+
+$dark: $black2;
+$gray-600: $gray2;
+
+// $font-size-base: 18px;
+$font-family-base: $font-fam1;
+$line-height-base: 1.2;
+$body-color: $gray2;
+$headings-margin-bottom: 18px;
+$headings-font-weight: 900;
+
+$input-bg: transparent;
+$input-color: inherit;
+$input-placeholder-color: inherit;
+$input-focus-color: inherit;
+$input-focus-bg: transparent;
+$input-focus-border-color: inherit;
+$input-focus-box-shadow: 0 0 0 1px;
+$input-border-radius: 0;
+$input-border-radius-lg: 0;
+$input-border-width: 2px;
+$form-group-margin-bottom: 15px;
+$input-padding-y-lg: 9px;
+$input-padding-x-lg: 10px;
+$input-height-lg: auto;
+$input-height: auto;
+
+$btn-padding-x: 18px;
+$btn-padding-y: 9.5px;
+$btn-padding-x-lg: 22px;
+
+$breadcrumb-bg: transparent;
+$breadcrumb-padding-x: 0;
+$breadcrumb-padding-y: 0;
+$breadcrumb-divider-color: inherit;
+$breadcrumb-divider: '>';
+
+$modal-content-bg: transparent;
+$modal-content-border-color: transparent;
+$modal-backdrop-opacity: .7;
+// $modal-backdrop-bg: $gray3;
+$modal-header-border-color: transparent;
+$modal-content-color: $white;
+$modal-inner-padding: 12px;
+$modal-xl: 1036px;
+
+$tooltip-bg: rgba($black, .7);
+$tooltip-border-radius: 0;
+$tooltip-opacity: 1;
+$tooltip-arrow-height: 0;
+$tooltip-padding-x: 17px;
+$tooltip-padding-y: 8.5px;
+
+$dropdown-color: inherit;
+
+
+$pink: #d83769;
+$purple: #5e348c;
+$purple2: #5e3495;
